@@ -4,6 +4,7 @@ int main()
     
     //float fnum; 
     char name[20];
+    char last[20];
     int age;
     float height;
     char university[20];
@@ -18,7 +19,7 @@ int main()
     
 
     printf ("Enter your full name: ");
-    scanf ("%[^\n]", name);
+    scanf ("%s %s", name, last);
     
     printf ("Enter your age: ");
     scanf ("%d", &age); 
@@ -29,6 +30,6 @@ int main()
     printf ("Enter you University name: ");
     scanf ("%s", university);
 
-    printf("\nHi! Everyone. This is %s from %s. I am %d years old and my height is %0.1f cm tall.\n",name,university,age,height);
+    printf("\nHi! Everyone. This is %c.%s from %s. I am %d years old and my height is %0.1f cm tall.\n",last[0],name,university,age,height);
     return 0; 
 }
