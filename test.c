@@ -1,10 +1,14 @@
-#include <stdio.h> 
+#include <stdio.h>
 
-int main ( )  
-{  
-    char naem;
-    printf("sdfjss :");
-    scanf("%c", &naem);
-    printf("%c",naem);
+int main (){
+
+    for(int i = 0 ; i <= 100; i++){
+        
+        if(i/2 == 0){
+            int sum = sum + i;
+            printf("%d",sum);
+        }
+    }
     return 0;
-} 
+
+}
