@@ -2,13 +2,13 @@
 
 int main (){
 
-    for(int i = 0 ; i <= 100; i++){
-        
-        if(i/2 == 0){
-            int sum = sum + i;
-            printf("%d",sum);
-        }
+
+    int a = 3;
+    while (a == 1,2,3)
+    {
+        printf("ken\n");
     }
+    printf("kendfssd\n");
     return 0;
 
 }
